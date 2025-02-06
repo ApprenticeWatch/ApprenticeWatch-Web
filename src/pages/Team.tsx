@@ -7,7 +7,7 @@ interface TeamMember {
   role: string;
   image: string;
   description: string;
-  type: 'founder' | 'ambassador';
+  type: 'founder' | 'ambassador' | 'developer';
   links: {
     github?: string;
     linkedin?: string;
@@ -15,6 +15,17 @@ interface TeamMember {
   };
 }
 const teamMembers: TeamMember[] = [
+  {
+    name: "Farrukh Ahmad",
+    role: "Founder",
+    type: "founder",
+    image: "/media/farrukh-av.png",
+    description: "I’m on a mission to make it easier for young professionals to find apprenticeships. Having faced the challenge myself of keeping up with the endless apprenticeships, I’m determined to simplify the process and take the stress out of it for others. I’m not just talking about change—I’m here to make it happen.",
+    links: {
+      github: "https://github.com/HeyFarrukh?utm_source=apprentice-watch",
+      linkedin: "https://www.linkedin.com/in/farrukh-ahmad-9547b1260?utm_source=apprentice-watch",
+    }
+  },
   {
     name: "Jamal Mitchell",
     role: "Co-Founder",
@@ -42,6 +53,28 @@ const teamMembers: TeamMember[] = [
     role: "Brand Ambassador",
     type: "ambassador",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80",
+    description: "Helping bridge the gap between education and industry through meaningful connections.",
+    links: {
+      linkedin: "https://linkedin.com",
+      twitter: "https://twitter.com"
+    }
+  },
+  {
+    name: "Humza Hussain",
+    role: "Senior Fullstack Developer",
+    type: "developer",
+    image: "media/humza-av.png",
+    description: "As a friend of the founder, I sympathized with the overly complex process of finding apprenticeships. I joined the team to help build a platform that simplifies the process and empowers young professionals to find the right opportunities and kickstart their professional careers.",
+    links: {
+      linkedin: "https://www.linkedin.com/in/humzahussain04/",
+      github: "https://github.com/hhussain04"
+    }
+  },
+  {
+    name: "Jane Doe",
+    role: "Brand Ambassador",
+    type: "ambassador",
+    image: "https://images.unsplash.com/photo-1526827818413-1e4eafbc5f4b?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80",
     description: "Helping bridge the gap between education and industry through meaningful connections.",
     links: {
       linkedin: "https://linkedin.com",
