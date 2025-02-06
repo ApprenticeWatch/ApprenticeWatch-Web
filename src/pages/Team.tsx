@@ -16,17 +16,6 @@ interface TeamMember {
 }
 const teamMembers: TeamMember[] = [
   {
-    name: "Farrukh Ahmad",
-    role: "Founder",
-    type: "founder",
-    image: "/media/farrukh-av.png",
-    description: "I’m on a mission to make it easier for young professionals to find apprenticeships. Having faced the challenge myself of keeping up with the endless apprenticeships, I’m determined to simplify the process and take the stress out of it for others. I’m not just talking about change—I’m here to make it happen.",
-    links: {
-      github: "https://github.com/HeyFarrukh?utm_source=apprentice-watch",
-      linkedin: "https://www.linkedin.com/in/farrukh-ahmad-9547b1260?utm_source=apprentice-watch",
-    }
-  },
-  {
     name: "Jamal Mitchell",
     role: "Co-Founder",
     type: "founder",
